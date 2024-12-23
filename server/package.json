@@ -1,0 +1,41 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "description": "Job Portal is site for both Jobseekers and Job recruiters.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachin9998/JobPortal.git"
+  },
+  "keywords": [
+    "Job",
+    "Portal",
+    "React",
+    "NodeJS",
+    "MongoDB",
+    "MERN",
+    "Stack",
+    "Full",
+    "Stack",
+    "Project"
+  ],
+  "author": "Sachin Alam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachin9998/JobPortal/issues"
+  },
+  "homepage": "https://github.com/sachin9998/JobPortal#readme",
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.8",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2"
+  }
+}
