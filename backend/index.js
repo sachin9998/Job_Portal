@@ -8,7 +8,7 @@ dotenv.config({});
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-// Middleware
+// Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
@@ -20,6 +20,10 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
+// Routes
+
+
+// ==> Start Server and Connect to Backend
 app.listen(PORT, (req, res) => {
   connectDB();
   console.log("Server is listening on Port: ", PORT);
