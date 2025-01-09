@@ -1,7 +1,7 @@
 {
-  "name": "job-portal",
+  "name": "JobLelo",
   "version": "1.0.0",
-  "description": "Job Portal is site for both Jobseekers and Job recruiters.",
+  "description": "JobLelo is Portal for both Jobseekers and Job recruiters.",
   "main": "index.js",
   "type": "module",
   "scripts": {
